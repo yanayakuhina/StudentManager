@@ -2,8 +2,6 @@ import java.sql.*;
 
 public class InsertGroup {
 
-
-
     private static final String NAME = "SG15DDhe11";
     private static final String URL = "jdbc:mysql://remotemysql.com/" + NAME;
     private static final String USER = "SG15DDhe11";

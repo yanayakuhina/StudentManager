@@ -27,7 +27,6 @@ public class Insert {
             statement.setString(3, student.getLastName());
             statement.setString(4, student.getBirthdayDate());
             statement.setString(5, student.getGroupName());
-
             statement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

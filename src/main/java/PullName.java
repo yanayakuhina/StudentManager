@@ -5,7 +5,7 @@ public class PullName {
 
     public ArrayList<String> pullNameFile(String[] args) throws Exception {
         File dir = new File(String.valueOf(args[0]));
-        System.out.println(args[0]);
+        System.out.println(dir);
         if (!dir.isDirectory()) {
             throw new Exception("Передан неправильный путь к директории");
         }

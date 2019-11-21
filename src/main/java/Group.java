@@ -8,6 +8,7 @@ public class Group {
 
     public void setId(Long id) {
         this.id = id;
+
     }
 
     public String getGroupName() {
@@ -16,6 +17,7 @@ public class Group {
 
     public void setGroupName(String groupName) {
         this.groupName = groupName;
+
     }
 
     @Override
